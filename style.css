@@ -1,61 +1,58 @@
-body {
-  margin: 0;
+body{
+margin:0;
+font-family:sans-serif;
 }
 
-.header {
-  width: 1000px;
-  height: 100px;
-  background-color: pink;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 100px;
+/* ヘッダー */
+
+header{
+background:yellow;
+text-align:center;
+padding:20px;
 }
 
-.container {
-  width: 1000px;
-  margin: 0 auto;
-  display: flex;
+/* 全体 */
+
+.container{
+display:flex;
 }
 
-.sidebar {
-  width: 200px;
-  height: 500px;
-  background-color: lightblue;
+/* サイドバー */
+
+.sidebar{
+background:#a8e0db;
+width:200px;
+padding:20px;
 }
 
-.main {
-  width: 800px;
-  height: 500px;
-  background-color: white;
+.sidebar ul{
+list-style:none;
+padding:0;
 }
 
-.footer {
-  width: 1000px;
-  height: 80px;
-  background-color: pink;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 80px;
+.sidebar li{
+margin-bottom:10px;
 }
 
-/* テーブル */
-table {
-  border: 4px solid black;
-  border-collapse: collapse;
+/* メイン */
+
+.main{
+padding:20px;
+flex:1;
 }
 
-td {
-  border: 4px solid black;
-  padding: 5px;
+/* フォーム */
+
+table{
+border-collapse:collapse;
 }
 
-/* テーブル中央 */
-.main table {
-  margin: 0 auto;
+th,td{
+border:1px solid #666;
+padding:8px;
 }
 
-/* 送信ボタン右寄せ */
-.main input[type="submit"] {
-  display: block;
-  margin-left: auto;
+textarea{
+width:200px;
+height:80px;
 }
