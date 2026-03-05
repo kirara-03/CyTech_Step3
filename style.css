@@ -35,6 +35,14 @@ padding:20px;
 flex:1;
 }
 
+.footer{
+  background:yellow;
+  text-align:center;
+  padding:20px;
+  width:1000px;
+  margin:0auto;
+}
+
 table{
 border-collapse:collapse;
 }
